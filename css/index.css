@@ -1,0 +1,42 @@
+/* body{
+    background-color: #325E26;
+} */
+.navbar{
+    background-color: #325E26;
+    z-index: 1;
+}
+
+
+
+#particles-js{
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    color: #5BAB44;
+}
+
+#hovericon:hover{
+    background-color: #5BAB44;
+}
+
+.imagen-modal{
+    width: 100%;
+}
+
+footer{
+    background-color: #325E26;
+}
+
+@media (max-width: 990px) {
+    #particles-js {
+      display: none;
+    }
+}
+
+
